@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
