@@ -1,17 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
 }
 
 .cardHeader {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .mainContent {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(255, 145, 145);
+    width: 80%;
 }
